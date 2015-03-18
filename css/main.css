@@ -32,9 +32,30 @@ body {
 
 .content-filler {
     min-height: 350px;
-    margin-top: 10px;
+    background-color: #252525;
+    /*for some reason, the content fillers were a little wider than the screen*/
+    width: 100%;
+    margin: 0px 0px;
 }
 
 .fixed-attachment {
     background-attachment: fixed;
+}
+
+@media (max-width: 1024px) {
+    .fixed-attachment {
+        background-attachment: scroll;
+    }
+}
+
+#video-wallpaper {
+    display: block;
+    position: relative;
+    width: auto;
+    min-height: 100%;
+    /*padding: 100px 0px;*/
+    background: no-repeat center center;
+    background-attachment: scroll;
+    background-color: #252525;
+    background-size: cover;
 }
