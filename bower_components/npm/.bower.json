@@ -1,0 +1,15 @@
+{
+  "name": "npm",
+  "homepage": "https://github.com/npm/npm",
+  "version": "2.7.6",
+  "_release": "2.7.6",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.7.6",
+    "commit": "0b607ed877c11bc22e7d641db0f9456efbada680"
+  },
+  "_source": "git://github.com/npm/npm.git",
+  "_target": "~2.7.6",
+  "_originalSource": "npm",
+  "_direct": true
+}
