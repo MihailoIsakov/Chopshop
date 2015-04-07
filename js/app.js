@@ -1,5 +1,19 @@
-/**
- * Created by zieghailo on 4/6/15.
- */
+'use strict'
 
-angular.module()
+var dronologijaApp = angular.module('dronologijaApp', [
+    'ngRoute',
+    'dronologijaControllers'
+    //'dronologijaServices'
+]);
+
+dronologijaApp.config(['$routeProvider',
+    function ($routeProvider) {
+        $routeProvider.
+            when('/ponude', {
+                templateUrl: 'partials/offers.html',
+                controller: 'offersCtrl'
+            }).
+            otherwise({
+                redirectTo: '/ponude'
+            });
+        }]);
