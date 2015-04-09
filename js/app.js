@@ -2,8 +2,8 @@
 
 var dronologijaApp = angular.module('dronologijaApp', [
     'ngRoute',
-    'dronologijaControllers'
-    //'dronologijaServices'
+    'dronologijaControllers',
+    'dronologijaServices'
 ]);
 
 dronologijaApp.config(['$routeProvider',
@@ -12,6 +12,10 @@ dronologijaApp.config(['$routeProvider',
             when('/ponude', {
                 templateUrl: 'partials/offers.html',
                 controller: 'offersCtrl'
+            }).
+            when('/ponude/:ponudaId', {
+                templateUrl: 'partials/offer-detail.html',
+                controller: 'offerDetailCtrl'
             }).
             otherwise({
                 redirectTo: '/ponude'

@@ -1,0 +1,13 @@
+{
+  "id": 4,
+  "name" : "Propeler FDS34 x4",
+  "dateCreated": "3. 10. 2011",
+  "expirationDate": "10. 10. 2011",
+  "validFrom": "4. 10. 2011",
+  "validTo": "9. 10. 2011",
+  "regularPrice": 245,
+  "salePrice": 200,
+  "maxOffers": 10,
+  "purchasedOffers": 9,
+  "active": true
+}

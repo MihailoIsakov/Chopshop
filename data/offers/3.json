@@ -1,0 +1,13 @@
+{
+  "id": 3,
+  "name" : "Raspberry Pi",
+  "dateCreated": "3. 10. 2011",
+  "expirationDate": "10. 10. 2011",
+  "validFrom": "4. 10. 2011",
+  "validTo": "9. 10. 2011",
+  "regularPrice": 315,
+  "salePrice": 300,
+  "maxOffers": 100,
+  "purchasedOffers": 21,
+  "active": true
+}

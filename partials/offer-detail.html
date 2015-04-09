@@ -1,0 +1,39 @@
+<div class="categories col-md-2">
+    <a href="#/ponude">Povratak</a>
+</div>
+
+<div class="offerDetail col-md-10">
+
+    <div class="col-md-4">
+        <img src="{{offer.image}}">
+    </div>
+
+    <div class="offerText col-md-8">
+        <h1>{{offer.name}}</h1>
+
+        <div class="wrapper">
+            <span class="Header">Kreirano:</span>
+            <span class="Result">{{offer.dateCreated}}</span>
+            <br>
+        </div>
+
+        <div class="wrapper">
+            <span class="Header">Ističe:</span>
+            <span class="Result">{{offer.expirationDate}}</span>
+            <br>
+        </div>
+
+        <div class="wrapper">
+            <span class="Header">Cena:</span>
+            <span class="Result">{{offer.salePrice}}</span>
+            <br>
+        </div>
+
+        <div class="wrapper">
+            <span class="Header">Preostalo:</span>
+            <span class="Result">{{offer.maxOffers - offer.purchasedOffers}}</span>
+            <br>
+        </div>
+    </div>
+
+</div>

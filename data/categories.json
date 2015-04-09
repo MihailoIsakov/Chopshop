@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "name": "All categories"
+  },
+  {
+    "id": 1,
+    "name": "Motors"
+  },
+  {
+    "id": 2,
+    "name": "Batteries"
+  },
+  {
+    "id": 3,
+    "name": "Frames"
+  },
+  {
+    "id": 4,
+    "name": "Controllers"
+  },
+  {
+    "id": 5,
+    "name": "Propellers"
+  }
+]

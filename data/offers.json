@@ -1,10 +1,30 @@
 [
   {
-    "name" : "kutija",
-    "age" : 10
+    "id": 1,
+    "name" : "Kuciste Xk12",
+    "expirationDate": "10. 10. 2011",
+    "salePrice": 300,
+    "active": true
   },
   {
-    "name" : "bla",
-    "age" : 3
+    "id": 2,
+    "name" : "Motor AHCS",
+    "expirationDate": "10. 10. 2011",
+    "salePrice": 2000,
+    "active": true
+  },
+  {
+    "id": 3,
+    "name" : "Raspberry Pi",
+    "expirationDate": "10. 10. 2011",
+    "salePrice": 300,
+    "active": true
+  },
+  {
+    "id": 4,
+    "name" : "Propeler FDS34 x4",
+    "expirationDate": "10. 10. 2011",
+    "salePrice": 200,
+    "active": true
   }
 ]

@@ -1,0 +1,51 @@
+.offer {
+    color: #ffc82f;
+
+    border-radius: 3%;
+    border: 1px solid #555544;
+    background-color: #444433;
+
+    text-align: right;
+    padding: 10px;
+    margin: 10px;
+
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.offer a, .categories a {
+    color: #ffc82f;
+    font-size: 20pt;
+}
+
+.offersList {
+    padding: 0px 0px;
+}
+
+input {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.categories {
+    background-color: #252525;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.offerText {
+    color: #ffc82f;
+}
+
+.offerText .wrapper {
+    /*margin-left: 100px;*/
+}
+.offerText .Header {
+    float: left;
+    width: 100px;
+}
+.offerText .Result {
+    float: left;
+    width: 100px;
+    margin-left: 0px;
+}

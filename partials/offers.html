@@ -1,16 +1,24 @@
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-2">
+<div class="categories col-md-2">
+    <input class="small" ng-model="query">
+    <select ng-model="offersOrder">
+        <option value="name">Po imenu</option>
+        <option value="expirationDate">Po datumu isticanja</option>
+        <option value="salePrice">Po ceni</option>
+    </select>
 
-        </div>
+    <ul class="cats">
+        <li ng-repeat="category in categories">
+            <a href="#/category/{{category.id}}">{{category.name}}</a>
+        </li>
+    </ul>
+</div>
 
-        <div class="col-md-10">
-            <ul class="offers">
-                <li ng-repeat="offer in offers | orderBy:age">
-                    {{offer.name}}
-                    {{offer.age}}
-                </li>
-            </ul>
+<div class="col-md-10">
+    <div class="offersList col-xs-12 col-sm-6 col-md-4" ng-repeat="offer in offers | filter:query | orderBy:offersOrder">
+        <div class="offer thumbnail">
+            <a href="#/ponude/{{offer.id}}">{{offer.name}} </a> <br>
+            ${{offer.salePrice}} <br>
+            {{offer.expirationDate}}
         </div>
     </div>
 </div>
